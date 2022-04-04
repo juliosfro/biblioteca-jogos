@@ -3,6 +3,7 @@
     - IDE: Visual Studio Code 
     - Ferramenta para acesso ao banco de dados: MySQL Workbench
     - Ferramenta para modelagem do banco de dados: Toad Data Modeler.
+    - Ferramenta utilizada para testar a API: Postman
 
 - Frameworks utilizados:
     - Nodemon para atualizar o servidor conforme alteracao do codigo.
@@ -60,7 +61,9 @@ GET        =>  http://localhost:3000/jogos-mais-adquiridos
 
 
 
-Desenvolvido por: JULIO DE OLIVEIRA NETO.
-GitHub: https://github.com/juliosfro
-LinkedIn: https://www.linkedin.com/in/juliosfro/
-E-mail: juliosfro@gmail.com
+## Contatos
+
+- <p> Desenvolvido por: JULIO DE OLIVEIRA NETO. </p>
+- <p> E-mail: juliosfro@gmail.com </p>
+- <p> GitHub: https://github.com/juliosfro </p>
+- <p> LinkedIn: https://www.linkedin.com/in/juliosfro/ </p>
