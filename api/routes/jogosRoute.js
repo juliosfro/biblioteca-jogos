@@ -18,6 +18,9 @@ router.put('/jogos/:idJogo', JogosController.editarJogo);
 /* Rota para deletar um jogo.  */
 router.delete('/jogos/:idJogo', JogosController.apagarJogo);
 
+/* Rota para cadastrar jogo para usuario. */
+router.post('/cadastrar-jogo/:idUsuario/:idJogo', JogosController.cadastrarJogoParaUsuario);
+
 /* Rota para mostrar os 5 jogos mais adquiridos por todos os usuarios. */
 router.get('/jogos-mais-adquiridos', JogosController.listarJogosMaisAdquiridos);
 

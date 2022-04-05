@@ -84,6 +84,18 @@ class JogosController {
         }
     }
 
+    /* Funcao para cadastrar jogo para usuario. */
+    static async cadastrarJogoParaUsuario(request, response) {
+        const { idJogo, idUsuario } = request.params;
+        const novoJogo = { idJogo, idUsuario }
+        try {
+            const novoJogoAdquirido = await database.JogosAdquiridos.create(novoJogo);
+            return response.status(200).json(novoJogoAdquirido);
+        } catch (error) {
+            return response.status(500).json(error.message);
+        }
+    }
+
     /* Funcao para retornar os 5 jogos mais adquiridos por todos os usuarios.  */
     static async listarJogosMaisAdquiridos(request, response) {
         try {

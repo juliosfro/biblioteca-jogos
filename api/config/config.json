@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "biblioteca_brinquedos",
+    "database": "biblioteca_jogos",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

@@ -1,9 +1,12 @@
 - Ferramentas utilizadas:
-    - Servidor gerenciador de banco de dados: MySql
-    - IDE: Visual Studio Code 
-    - Ferramenta para acesso ao banco de dados: MySQL Workbench
+    - Servidor gerenciador de banco de dados: MySql.
+    - IDE: Visual Studio Code.
+    - Ferramenta para acesso ao banco de dados: MySQL Workbench.
     - Ferramenta para modelagem do banco de dados: Toad Data Modeler.
-    - Ferramenta utilizada para testar a API: Postman
+    - Ferramenta utilizada para testar a API: Postman.
+    - Ferramenta para versionamento de codigo: Git.
+    - Para hospedar e rodar o sistema gerenciador de banco de dados: Docker.
+    - Sistema operacional: macOS Monterey.
 
 - Frameworks utilizados:
     - Nodemon para atualizar o servidor conforme alteracao do codigo.
@@ -11,7 +14,7 @@
     - Express para gerenciamento de rotas http.
 
 1 - Rodar o comando para criar a base de dados no MySql: 
-     - CREATE SCHEMA `biblioteca_brinquedos` DEFAULT CHARACTER SET utf8 ;
+     - CREATE SCHEMA `biblioteca_jogos` DEFAULT CHARACTER SET utf8 ;
 
 2 - No diretorio /biblioteca-jogos executar o comando npm install para baixar todas as dependencias.
 
@@ -35,9 +38,6 @@
 - PUT       =>  http://localhost:3000/usuarios/:idUsuario      => Editar usuario por id.
 - DELETE    =>  http://localhost:3000/usuarios/:idUsuario      => Deletar usuario por id.
 
-/* Rota para listar os jogos cadastrados para cada usuario. */
-
-- GET       =>  http://localhost:3000/jogos-cadastrados
 
 /* End-points de Categoria de Jogos. */
 
@@ -47,6 +47,7 @@
 - PUT      =>  http://localhost:3000/categoria-jogos/:idCategoriaJogo     => Editar categoria por id.
 - DELETE   =>  http://localhost:3000/categoria-jogos/:idCategoriaJogo     => Deletar categoria por id.
 
+
 /* End-points de Jogos. */
 
 - GET      =>  http://localhost:3000/jogos                      => Listar todos os jogos.
@@ -55,10 +56,17 @@
 - PUT      =>  http://localhost:3000/jogos/:idJogo              => Editar jogo por id.
 - DELETE   =>  http://localhost:3000/jogos/:idJogo              => Deletar jogo por id.
 
+
+/* Rota para cadastrar jogo para usuario. */
+- POST     =>  http://localhost:3000/cadastrar-jogo/:idUsuario/:idJogo   
+
+
+/* Rota para listar os jogos cadastrados para cada usuario. */
+- GET      =>  http://localhost:3000/jogos-cadastrados
+
+
 /* Rota para mostrar os 5 jogos mais adquiridos por todos os usuarios. */
-
-GET        =>  http://localhost:3000/jogos-mais-adquiridos
-
+- GET      =>  http://localhost:3000/jogos-mais-adquiridos
 
 
 ## Contatos
