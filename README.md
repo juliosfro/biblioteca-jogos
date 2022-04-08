@@ -4,12 +4,14 @@
     
     - Biblioteca de Jogos:
         A API deverá fornecer as seguintes funcionalidades:
-        • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir categorias de jogos • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir jogos
-        ◦ Jogos devem ter apenas uma categoria
-        • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir usuários
-        ◦ Cada usuário poderá ter um ou mais jogos já cadastrados
-        ◦ Dados únicos, como e-mail, deverão ser únicos no banco de dados ◦ Cada usuário deverá ter um ou mais jogos
-        ◦ Não poderão ser cadastrados jogos repetidos
+           • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir categorias de jogos 
+           • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir jogos
+           ◦ Jogos devem ter apenas uma categoria
+           • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir usuários
+           ◦ Cada usuário poderá ter um ou mais jogos já cadastrados
+           ◦ Dados únicos, como e-mail, deverão ser únicos no banco de dados 
+           ◦ Cada usuário deverá ter um ou mais jogos
+           ◦ Não poderão ser cadastrados jogos repetidos
         
     * Opcionalmente a API poderá ter:
         • Autenticação do usuário para acessar os recursos
