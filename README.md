@@ -32,7 +32,7 @@
     - Sequelize como framework de ORM para interacao com o banco de dados.
     - Express para gerenciamento de rotas http.
     
- ## Intrucoes para rodar o projeto.
+ ## Instrucoes para rodar o projeto.
 
 1 - Rodar o comando para criar a base de dados no MySql: 
      - CREATE SCHEMA `biblioteca_jogos` DEFAULT CHARACTER SET utf8 ;
