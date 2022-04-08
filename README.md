@@ -1,4 +1,21 @@
-- Ferramentas utilizadas:
+## Regra de Negocio.
+
+    * O propósito deste desafio é avaliar os conhecimentos em JavaScript, Express e SQL.
+    
+    - Biblioteca de Jogos:
+        A API deverá fornecer as seguintes funcionalidades:
+        • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir categorias de jogos • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir jogos
+        ◦ Jogos devem ter apenas uma categoria
+        • Rotas para Cadastrar/Editar/Listar/Recuperar/Excluir usuários
+        ◦ Cada usuário poderá ter um ou mais jogos já cadastrados
+        ◦ Dados únicos, como e-mail, deverão ser únicos no banco de dados ◦ Cada usuário deverá ter um ou mais jogos
+        ◦ Não poderão ser cadastrados jogos repetidos
+        
+    * Opcionalmente a API poderá ter:
+        • Autenticação do usuário para acessar os recursos
+        • Uma rota para retornar os cinco (5) jogos mais adquiridos por todos os usuários da plataforma.
+
+## Ferramentas utilizadas:
     - Servidor gerenciador de banco de dados: MySql.
     - IDE: Visual Studio Code.
     - Ferramenta para acesso ao banco de dados: MySQL Workbench.
@@ -8,10 +25,12 @@
     - Para hospedar e rodar o sistema gerenciador de banco de dados: Docker.
     - Sistema operacional: macOS Monterey.
 
-- Frameworks utilizados:
+## Frameworks utilizados:
     - Nodemon para atualizar o servidor conforme alteracao do codigo.
     - Sequelize como framework de ORM para interacao com o banco de dados.
     - Express para gerenciamento de rotas http.
+    
+ ## Intrucoes para rodar o projeto.
 
 1 - Rodar o comando para criar a base de dados no MySql: 
      - CREATE SCHEMA `biblioteca_jogos` DEFAULT CHARACTER SET utf8 ;
@@ -28,7 +47,7 @@
 
 5 - No diretorio /biblioteca-jogos executar o comando npm start para executar a aplicacao.
 
-- End-Points criados:
+## End-Points criados:
 
 /* End-points de Usuarios. */
 
